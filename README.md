@@ -244,4 +244,5 @@ yields
 
 ## Mockup
 
-![Benchmark Img](https://github.com/benscanlan/docker-django/blob/master/docs%20/sollim-mockup.png?raw=true)
+![Benchmark Img](https://github.com/benscanlan/docker-django/blob/master/docs/sollim-mockup.png?raw=true)
+https://raw.githubusercontent.com/benscanlan/docker-django/master/docs/sollim-mockup.png
