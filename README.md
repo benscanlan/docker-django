@@ -240,3 +240,8 @@ yields
             └── hello_world.html
 
     26 directories, 152 files
+
+
+## Mockup
+
+![Benchmark Img](https://github.com/benscanlan/docker-django/blob/master/docs%20/sollim-mockup.png?raw=true)
