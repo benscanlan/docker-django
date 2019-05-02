@@ -39,8 +39,14 @@ New stack is nginx reverse proxy, django to handle session security, and postgre
 
     docker ps #host port maps to -> docker vm port
 
-## Socket Architecture
-
+or    
+    
+    docker container ls
+    CONTAINER ID        IMAGE                      COMMAND                  CREATED             STATUS              PORTS                          NAMES
+    e33a758f1483        nginx:latest               "nginx -g 'daemon of…"   About an hour ago   Up About an hour    80/tcp, 0.0.0.0:80->8000/tcp   nz01
+    f6222bb6e542        docker-django-master_web   "/bin/sh -c 'python …"   2 hours ago         Up About an hour    8000/tcp                       dz01
+    51e737db502b        redis:latest               "docker-entrypoint.s…"   3 hours ago         Up About an hour    0.0.0.0:6379->6379/tcp         rz01
+    415be0e1155e        postgres:latest            "docker-entrypoint.s…"   3 hours ago         Up About an hour    5432/tcp                       pz01
 
 ## Docker Containers
 
@@ -49,8 +55,7 @@ New stack is nginx reverse proxy, django to handle session security, and postgre
 * Chat about a house
 * Customer Q&A Public Submission page (with alert emails when answered)
 
-
-## HottestHouse File Tree
+## File Tree
 
     Bens-MacBook-Pro:docker-django benscanlan$ tree
     .
