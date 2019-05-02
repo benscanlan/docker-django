@@ -41,7 +41,7 @@ New stack is nginx reverse proxy, django to handle session security, and postgre
 or    
     
     docker container ls
-yeilds
+yields
 
     CONTAINER ID        IMAGE                      COMMAND                  CREATED             STATUS              PORTS                          NAMES
     e33a758f1483        nginx:latest               "nginx -g 'daemon of…"   About an hour ago   Up About an hour    80/tcp, 0.0.0.0:80->8000/tcp   nz01
